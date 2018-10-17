@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
 // Create a new component
 const App = function() {
@@ -6,4 +7,4 @@ const App = function() {
 };
 
 //Render the component in DOM
-React.redner(App);
+ReactDOM.render(<App />, document.querySelector('.container'));

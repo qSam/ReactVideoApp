@@ -11,8 +11,10 @@ YTSearch(
     key: API_KEY,
     term: 'surfboards'
   },
-  function(data) {
-    console.log(data);
+  data => {
+    this.setState({
+      videos: data
+    });
   }
 );
 // Create a new component

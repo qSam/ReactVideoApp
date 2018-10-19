@@ -16,7 +16,7 @@ class App extends Component {
     YTSearch(
       {
         key: API_KEY,
-        term: 'surfboards'
+        term: 'kiki challenge'
       },
       data => {
         this.setState({

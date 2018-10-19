@@ -4,6 +4,7 @@ import YTSearch from 'youtube-api-search';
 
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
+import VideoDetail from './components/video_detail';
 
 const API_KEY = 'AIzaSyD3o7QSIZ4qAYJ_LCDnlu8ymyEE0QQLHh8';
 
@@ -16,7 +17,7 @@ class App extends Component {
     YTSearch(
       {
         key: API_KEY,
-        term: 'kiki challenge'
+        term: 'drake nice for what'
       },
       data => {
         this.setState({
@@ -30,6 +31,7 @@ class App extends Component {
     return (
       <div>
         <SearchBar />
+        <VideoDetail video={this.state.videos[0]} />
         <VideoList videos={this.state.videos} />
       </div>
     );

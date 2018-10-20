@@ -1,12 +1,12 @@
 .search-bar {
   margin: 20px;
   text-align: center;
-  background-color: #33B2FF;
+  background-color: #33b2ff;
+  border-radius: 25px;
 }
 
 .search-bar input {
-  width: 75%;
-  background-color: #33B2FF;
+  width: 50%;
 }
 
 .video-item img {
@@ -24,6 +24,6 @@
   cursor: pointer;
 }
 
-.list-group-item:hover{
-  background-color: : #eee;
+.list-group-item:hover {
+  background-color: #eee;
 }

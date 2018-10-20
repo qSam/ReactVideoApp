@@ -9,7 +9,7 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div>
+      <div classNme="search-bar">
         Search:{' '}
         <input
           value={this.state.term}
